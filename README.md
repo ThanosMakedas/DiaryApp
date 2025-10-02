@@ -16,7 +16,7 @@ Det här är en enkel konsolapplikation i C# där användaren kan skriva dagboks
 
 Exempel
 - Datum: 2025-10-02
-- Text: Idag lärde jag mig om JSON och Listor i C#.
+- Text: Idag kom till lektion efter en vecka har jag missat eftersom jag var i Grekland.
 
 ## Kort reflektion
 Jag valde att använda `List<DiaryEntry>` för att lagra anteckningar eftersom det är enkelt att hantera och passar bra för sekventiell data. Jag använder `System.Text.Json` för att spara och läsa data från filen, eftersom JSON är ett lättläst och vanligt format. Fel hanteras med `try/catch` för att undvika krascher om filen saknas eller innehåller felaktig data. Jag validerar datum med `DateTime.TryParse()` och kontrollerar att texten inte är tom. Programmet är uppbyggt med en meny i konsolen och använder kontrollstrukturer som `while` och `switch` för navigation.
